@@ -1,0 +1,627 @@
+div#container
+{
+   width: 1000px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: "Book Antiqua";
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#wb_TRMasterframeCUCssMenu1
+{
+   border: 0px #C0C0C0 solid;
+   background-color: transparent;
+}
+#wb_TRMasterframeCUCssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_TRMasterframeCUCssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 1px 0px 0px;
+}
+#wb_TRMasterframeCUCssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #FFFFFF;
+   border: 1px #C0C0C0 solid;
+   background-color: #000080;
+   background-image: none;
+   font-family: "Book Antiqua";
+   font-weight: normal;
+   font-size: 17px;
+   font-style: normal;
+   text-decoration: none;
+   height: 26px;
+   line-height: 26px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   text-align: center;
+}
+#wb_TRMasterframeCUCssMenu1 li:hover a, #wb_TRMasterframeCUCssMenu1 a:hover, #wb_TRMasterframeCUCssMenu1 .active
+{
+   color: #FFFF00;
+   background-color: #4169E1;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+}
+#wb_TRMasterframeCUCssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_TRMasterframeCUCssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_TRMasterframeCUCssMenu1 li:hover, #wb_TRMasterframeCUCssMenu1 li a:hover
+{
+   position: relative;
+}
+#wb_TRMasterframeCUCssMenu1 a.withsubmenu
+{
+   padding: 0 5px 0 5px;
+   background-image: none;
+}
+#wb_TRMasterframeCUCssMenu1 li:hover a.withsubmenu, #wb_TRMasterframeCUCssMenu1 a.withsubmenu:hover
+{
+   background-image: none;
+}
+#wb_TRMasterframeCUCssMenu1 ul ul
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   visibility: hidden;
+   width: 300px;
+   height: auto;
+   border: none;
+   background-color: #C0C0C0;
+}
+#wb_TRMasterframeCUCssMenu1 ul :hover ul
+{
+   left: 0px;
+   top: 28px;
+   padding-top: 0px;
+   visibility: visible;
+}
+#wb_TRMasterframeCUCssMenu1 .firstmain:hover ul
+{
+   left: 0px;
+}
+#wb_TRMasterframeCUCssMenu1 li li
+{
+   width: 300px;
+   padding: 0 0px 0px 0px;
+   border: 0px #C0C0C0 solid;
+   border-width: 0 0px;
+}
+#wb_TRMasterframeCUCssMenu1 li li.firstitem
+{
+   border-top: 0px #C0C0C0 solid;
+}
+#wb_TRMasterframeCUCssMenu1 li li.lastitem
+{
+   border-bottom: 0px #C0C0C0 solid;
+}
+#wb_TRMasterframeCUCssMenu1 ul ul a, #wb_TRMasterframeCUCssMenu1 ul :hover ul a
+{
+   float: none;
+   margin: 0;
+   width: 286px;
+   height: auto;
+   white-space: normal;
+   padding: 5px 6px 5px 6px;
+   background-color: #EEEEEE;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   color: #000000;
+   font-family: "Book Antiqua";
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 16px;
+   text-align: left;
+   text-decoration: none;
+}
+#wb_TRMasterframeCUCssMenu1 ul :hover ul .firstitem a
+{
+   margin-top: 0px;
+}
+#wb_TRMasterframeCUCssMenu1 ul ul :hover a, #wb_TRMasterframeCUCssMenu1 ul ul a:hover, #wb_TRMasterframeCUCssMenu1 ul ul :hover ul :hover a, #wb_TRMasterframeCUCssMenu1 ul ul :hover ul a:hover
+{
+   background-color: #C0C0C0;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   color: #000000;
+}
+#wb_TRMasterframeCUCssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#wb_MasterframeCssMenu1
+{
+   border: 0px #C0C0C0 solid;
+   background-color: transparent;
+}
+#wb_MasterframeCssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_MasterframeCssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 1px 0px 0px;
+}
+#wb_MasterframeCssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #FFFFFF;
+   border: 1px #C0C0C0 solid;
+   background-color: #000080;
+   background-image: none;
+   font-family: "Book Antiqua";
+   font-weight: normal;
+   font-size: 17px;
+   font-style: normal;
+   text-decoration: none;
+   height: 26px;
+   line-height: 26px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   text-align: center;
+}
+#wb_MasterframeCssMenu1 li:hover a, #wb_MasterframeCssMenu1 a:hover, #wb_MasterframeCssMenu1 .active
+{
+   color: #FFFF00;
+   background-color: #4169E1;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+}
+#wb_MasterframeCssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_MasterframeCssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_MasterframeCssMenu1 li:hover, #wb_MasterframeCssMenu1 li a:hover
+{
+   position: relative;
+}
+#wb_MasterframeCssMenu1 a.withsubmenu
+{
+   padding: 0 5px 0 5px;
+   background-image: none;
+}
+#wb_MasterframeCssMenu1 li:hover a.withsubmenu, #wb_MasterframeCssMenu1 a.withsubmenu:hover
+{
+   background-image: none;
+}
+#wb_MasterframeCssMenu1 ul ul
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   visibility: hidden;
+   width: 280px;
+   height: auto;
+   border: none;
+   background-color: #D3D3D3;
+}
+#wb_MasterframeCssMenu1 ul :hover ul
+{
+   left: 0px;
+   top: 28px;
+   padding-top: 0px;
+   visibility: visible;
+}
+#wb_MasterframeCssMenu1 .firstmain:hover ul
+{
+   left: 0px;
+}
+#wb_MasterframeCssMenu1 li li
+{
+   width: 280px;
+   padding: 0 0px 1px 0px;
+   border: 0px #C0C0C0 solid;
+   border-width: 0 0px;
+}
+#wb_MasterframeCssMenu1 li li.firstitem
+{
+   border-top: 0px #C0C0C0 solid;
+}
+#wb_MasterframeCssMenu1 li li.lastitem
+{
+   border-bottom: 0px #C0C0C0 solid;
+}
+#wb_MasterframeCssMenu1 li li.lastitem
+{
+   padding-bottom: 0px;
+}
+#wb_MasterframeCssMenu1 ul ul a, #wb_MasterframeCssMenu1 ul :hover ul a
+{
+   float: none;
+   margin: 0;
+   width: 266px;
+   height: auto;
+   white-space: normal;
+   padding: 5px 6px 5px 6px;
+   background-color: #EEEEEE;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   color: #000000;
+   font-family: "Book Antiqua";
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   line-height: 16px;
+   text-align: left;
+   text-decoration: none;
+}
+#wb_MasterframeCssMenu1 ul :hover ul .firstitem a
+{
+   margin-top: 0px;
+}
+#wb_MasterframeCssMenu1 ul ul :hover a, #wb_MasterframeCssMenu1 ul ul a:hover, #wb_MasterframeCssMenu1 ul ul :hover ul :hover a, #wb_MasterframeCssMenu1 ul ul :hover ul a:hover
+{
+   background-color: #C0C0C0;
+   background-image: none;
+   border: 1px #C0C0C0 solid;
+   color: #000000;
+}
+#wb_MasterframeCssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#TRMasterframeLayer1
+{
+   background-color: transparent;
+}
+#trialmfTable4
+{
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #FFFFFF;
+   border-right-color: #FFFFFF;
+   border-bottom-color: #FFFFFF;
+   border-left-color: #FFFFFF;
+   background-color: transparent;
+   border-spacing: 0px;
+}
+#trialmfTable4 td
+{
+   padding: 0px 0px 0px 0px;
+}
+#trialmfTable4 td div
+{
+   white-space: nowrap;
+}
+#trialmfTable4 .cell0
+{
+   background-color: transparent;
+   border: 1px #C0C0C0 none;
+   text-align: left;
+   vertical-align: top;
+   width: 288px;
+   height: 26px;
+}
+#trialmfTable4 .cell1
+{
+   background-color: transparent;
+   border: 1px #FFFFFF none;
+   text-align: left;
+   vertical-align: top;
+   width: 46px;
+   height: 26px;
+}
+#trialmfTable4 .cell2
+{
+   background-color: transparent;
+   border: 1px #C0C0C0 none;
+   text-align: left;
+   vertical-align: top;
+   width: 210px;
+   height: 26px;
+}
+#trialmfTable4 .cell3
+{
+   background-color: transparent;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   text-align: left;
+   vertical-align: top;
+   width: 46px;
+   height: 26px;
+}
+#trialmfTable4 .cell4
+{
+   background-color: transparent;
+   border: 1px #C0C0C0 none;
+   text-align: right;
+   vertical-align: top;
+   height: 26px;
+}
+#trialmfTable4 .cell5
+{
+   background-color: transparent;
+   border: 1px #C0C0C0 none;
+   text-align: left;
+   vertical-align: top;
+   width: 288px;
+   height: 200px;
+}
+#trialmfTable4 .cell6
+{
+   background-color: transparent;
+   border: 1px #FFFFFF dotted;
+   text-align: left;
+   vertical-align: top;
+   width: 46px;
+   height: 200px;
+}
+#trialmfTable4 .cell7
+{
+   background-color: transparent;
+   border: 1px #FFFFFF solid;
+   text-align: left;
+   vertical-align: top;
+   width: 210px;
+   height: 200px;
+}
+#trialmfTable4 .cell8
+{
+   background-color: transparent;
+   border: 1px #FFFFFF solid;
+   text-align: left;
+   vertical-align: top;
+   width: 46px;
+   height: 200px;
+}
+#trialmfTable4 .cell9
+{
+   background-color: transparent;
+   border: 1px #FFFFFF solid;
+   text-align: left;
+   vertical-align: top;
+   height: 200px;
+}
+#masterframeLayer8
+{
+   background-color: #000080;
+   background: -moz-linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   background: -webkit-linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   background: -o-linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   background: -ms-linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   background: linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+}
+#masterframeLayer3
+{
+   background-color: #808080;
+   background: -moz-linear-gradient(top,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+   background: -webkit-linear-gradient(top,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+   background: -o-linear-gradient(top,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+   background: -ms-linear-gradient(top,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+   background: linear-gradient(top,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+}
+#masterframeLayer2
+{
+   background-color: #808080;
+   background: -moz-linear-gradient(bottom,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+   background: -webkit-linear-gradient(bottom,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+   background: -o-linear-gradient(bottom,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+   background: -ms-linear-gradient(bottom,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+   background: linear-gradient(bottom,#D2DFED 0%,#C8D7EB 25%,#BED0EA 50%,#A6C0E3 50%,#AFC7E8 62%,#BAD0EF 75%,#99B5DB 87%,#799BC8 100%);
+}
+#new_masterframeLayer1
+{
+   background-color: transparent;
+}
+#casetta
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#masterframeImage1
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#new_masterframeLayer2
+{
+   background-color: #000080;
+   background: -moz-linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   background: -webkit-linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   background: -o-linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   background: -ms-linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   background: linear-gradient(bottom,#000080 0%,#A9A9A9 100%);
+   -moz-box-shadow: 0px 13px 500px #A9A9A9;
+   -webkit-box-shadow: 0px 13px 500px #A9A9A9;
+   box-shadow: 0px 13px 500px #A9A9A9;
+}
+#wb_Il_MonasteroText1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Il_MonasteroText1 div
+{
+   text-align: justify;
+}
+#wb_TRSpiritualita_Clariano_MarianaText1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_TRSpiritualita_Clariano_MarianaText1 div
+{
+   text-align: justify;
+}
+#TRSpiritualita_Clariano_MarianaImage1
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#TRSpiritualita_Clariano_MarianaImage2
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_MasterframeText1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_MasterframeText1 div
+{
+   text-align: left;
+}
+#trialmfLine1
+{
+   color: #0000CD;
+   background-color: #0000CD;
+   border-width: 0;
+   margin: 0;
+   padding: 0;
+   -moz-box-shadow: 0px 0px 3px #FFD700;
+   -webkit-box-shadow: 0px 0px 3px #FFD700;
+   box-shadow: 0px 0px 3px #FFD700;
+}
+#trialmfLine6
+{
+   color: #0000CD;
+   background-color: #0000CD;
+   border-width: 0;
+   margin: 0;
+   padding: 0;
+   -moz-box-shadow: 0px 0px 4px #FFD700;
+   -webkit-box-shadow: 0px 0px 4px #FFD700;
+   box-shadow: 0px 0px 4px #FFD700;
+}
+#trialmfImage3
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#trialmfLine2
+{
+   color: #0000CD;
+   background-color: #0000CD;
+   border-width: 0;
+   margin: 0;
+   padding: 0;
+   -moz-box-shadow: 0px 0px 4px #FFD700;
+   -webkit-box-shadow: 0px 0px 4px #FFD700;
+   box-shadow: 0px 0px 4px #FFD700;
+}
+#trialmfLine3
+{
+   color: #0000CD;
+   background-color: #0000CD;
+   border-width: 0;
+   margin: 0;
+   padding: 0;
+   -moz-box-shadow: 0px 0px 3px #FFD700;
+   -webkit-box-shadow: 0px 0px 3px #FFD700;
+   box-shadow: 0px 0px 3px #FFD700;
+}
+#trialmfImage1
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MasterframeImage1
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#FotografieImage1
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
